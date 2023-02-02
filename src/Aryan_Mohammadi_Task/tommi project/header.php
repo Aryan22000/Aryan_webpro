@@ -98,7 +98,7 @@ transform: translate(-50%, -50%);
     display:flex;
     flex-wrap: wrap;
 }
-
+/* 
 .grid-container {    background-image: url('images/bg.jpg');
     opacity: 80%;
     min-height: 100vh;
@@ -116,7 +116,7 @@ transform: translate(-50%, -50%);
 
 .grid-container > div {
     object-fit: cover;
-}
+} */
 
 .button {
     width: 10vw;
@@ -234,7 +234,7 @@ transform: translate(-50%, -50%);
     <div class="header">
         <div style="flex-grow: 3; vertical-align: middle; "><a href="contact.html" class="button vcenter">Contact</a></div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="staff.html" class="button vcenter">Staff</a> </div>
-        <div style="flex-grow: 3; vertical-align: middle; "><a href="reserve.html" class="button vcenter">Reserve</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="ex1.php" class="button vcenter">ex1</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="menu.php" class="button vcenter">Menu</a> </div>
         <div style="flex-grow: 5;"></div>
         <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
