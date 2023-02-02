@@ -1,5 +1,16 @@
 <?php include "header.php" ?>
-<!-- <h1>some content</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sint delectus minus optio doloremque incidunt neque impedit enim ipsum autem libero cum, quas adipisci consectetur vitae dicta non exercitationem itaque.</p> -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+<body>
+      <?php echo "Aryan Mohammadi"?>
+      <br>
+      <?php echo "+358 415707884"?>
+</body>
+</html>
 <?php include "footer.php" ?>
