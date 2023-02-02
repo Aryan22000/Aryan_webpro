@@ -29,8 +29,30 @@ echo date("d.m.Y") . "<br>";
 $title1 = "PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
 ?>
-<h1>3.5 $g1=5, $g2=4, $g3=5. These are the grades for 3 students in the course. ...</h1>
-
+<h3> 3.5.table & variable </h3>
+<?php
+$g1 = 5;
+$g2 = 4;
+$g3 = 5;
+echo "
+<table>
+<tr>
+<th> S.N </th><th> Name </th><th> Grade </th>
+</tr>
+<tr>
+<td> 1 </td><td> Pekka </td><td> $g1 </td>
+</tr>
+<tr>
+<td> 2 </td><td> Johanna </td><td> $g2 </td>
+</tr>
+<tr>
+<td> 3 </td><td> John </td><td> $g3 </td>
+</tr>
+</table>
+";
+?>
+<h3> 4 screenshot of the development environment </h3>
+<img src="./my_docker.png" alt="My screenshot of docker" style="width: 900px; height: 400px;">
 </body>
 </html>
 
