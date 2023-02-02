@@ -235,7 +235,7 @@ transform: translate(-50%, -50%);
         <div style="flex-grow: 3; vertical-align: middle; "><a href="contact.html" class="button vcenter">Contact</a></div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="staff.html" class="button vcenter">Staff</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="reserve.html" class="button vcenter">Reserve</a> </div>
-        <div style="flex-grow: 3; vertical-align: middle; "><a href="menu.html" class="button vcenter">Menu</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="menu.php" class="button vcenter">Menu</a> </div>
         <div style="flex-grow: 5;"></div>
         <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
         <div style="flex-grow: 2;"> <a href="index.html"><img style="width: 40px; padding: 5px;" class="vcenter" src="images/logo.png" alt="logo"></a></div> 
