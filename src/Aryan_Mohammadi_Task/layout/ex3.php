@@ -64,7 +64,7 @@ $sum = $num1+$num2+$num3;
 echo $num1."+".$num2."+".$num3."=". $sum;
 ?>
 <h2>Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER).</h2>
-<?php 
-
+<?php
+echo $_SERVER['HTTP_USER_AGENT'];
 ?>
 <?php include "footer.php" ?>
