@@ -27,14 +27,10 @@
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="./index.php">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.php">Content</a>
+          <a class="nav-link" href="ex1.php">exercise1 </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.php">about me </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">job</a>
+          <a class="nav-link" href="ex3.php">exercise 3</a>
         </li>
         
       </ul>

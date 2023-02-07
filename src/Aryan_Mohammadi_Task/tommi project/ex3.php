@@ -15,42 +15,43 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="menu.css">
     <style>
-        body {
-    font-family: 'Ranga', cursive; 
-    font-size: 20px;
-    vertical-align: middle;
-       text-align: center;
-       align-content: center;
-       background-color: #6f2232;
+        /* body {
+    /* font-family: 'Ranga', cursive; 
+    font-size: 20px; */
+    /* vertical-align: middle; */
+       /* text-align: center;
+       align-content: center; */
+       /* background-color: #6f2232;
        word-wrap: break-word;
        hyphens: auto;
-       margin: 0;
-       color: #ffff;
-       position: relative;
-       }
-       
-       img {
+       margin: 0; */
+       /* color: #ffff; */
+       /* position: relative; */
+       /* } */
+/*         */
+       /* img {
               border-radius: 11px;
               width: 100%;
        }
-       
-       p{
+        */
+       /* p{
               font-family:'Inria Serif';
               -webkit-text-stroke-width: 0.3px;
               -webkit-text-stroke-color: #C3073F; 
-       }
-       p1{
+       } */
+       /* p1{
               font-family:'Inria Serif';
               color:#C3073F;
               -webkit-text-stroke-width: 0.3px;
               -webkit-text-stroke-color: #ffffff; 
-       }
-       h2{
+       } */
+       /* h2{
               font-family:'Rancho', cursive;
               color:#4E4E50;
               -webkit-text-stroke-width: 0.3px;
               -webkit-text-stroke-color: #ffffff; 
-       }
+       } */
+       /*
        .vcenter {
        margin: 0;
        position: absolute;
@@ -60,11 +61,11 @@
        }
        
        .main { grid-area: main; background-color: #1A1A1D; opacity: 93%;
-           display: flex;
-           flex-wrap: wrap;
-           flex-direction: row;
-           justify-content: space-evenly;
-           align-items: center;
+           display: block;
+           /* flex-wrap: wrap;
+           flex-direction: row; */
+           /* justify-content: space-evenly; */
+           /* align-items: center;
            align-content: space-around;
            flex-basis: auto;
            column-gap: 10px;
@@ -188,89 +189,24 @@
     }
     .imgblock{
         margin-left:200px;
-    }
-}
-    </style>
+    } */
+/* } */ 
+    /* </style> */
 </head>
 <body>
 
-<div class="grid-container">
-    <div class="main">
-        <div class="cntrblock">
-            <h1>The only place to eat in Hämeenlinna! </h1>
-        </div>
-        <div class="cntrblock"><h2>Our favourites</h2></div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem1.jpg" alt="item1">
-                <div class="card-body">
-                <p class="card-text"><b>Cheeseburger :</b><br>meat burger 250g <br> Italian cheese<br> special sauce <br> roasted onion</p>
-                </div>
-            </div>
-        </div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem2.png" alt="item2">
-                <div class="card-body">
-                <p class="card-text" ><b>Sea Pizza :</b><br>shrimp<br>mushroom <br>fish  <br>special cheese </p>
-                </div>
-            </div>
-        </div>
-        <div class="invisible">~~~~~~~~</div>
-        <div class="cntrblock"><h2>Pizza</h2></div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem3.jpg" alt="item3">
-                <div class="card-body">
-                <p class="card-text" ><b>Pepperoni Pizza :</b><br>pepperoni<br>olive <br> garlic sauce <br>special cheese </p>
-                </div>
-            </div>
-        </div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem4.jpg" alt="item4">
-                <div class="card-body">
-                <p class="card-text" ><b>Vegetables Pizza :</b><br>corn<br>mushroom <br>broccoli  <br>Spanish cheese </p>
-                </div>
-            </div>
-        </div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem2.png" alt="item5">
-                <div class="card-body">
-                <p class="card-text" ><b>Sea Pizza :</b><br>shrimp<br>mushroom <br>fish  <br>special cheese </p>
-                </div>
-            </div>
-        </div>
-        <div class="invisible">~~~~~~~~</div>
-        <div class="cntrblock"><h2>Burger</h2></div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem1.jpg" alt="item6">
-                <div class="card-body">
-                <p class="card-text" ><b>Cheeseburger :</b><br>meat burger 250g <br> Italian cheese<br> special sauce <br> roasted onion</p>
-                </div>
-            </div>
-        </div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem5.jpg" alt="item7">
-                <div class="card-body">
-                <p class="card-text" ><b>Special Burger :</b><br>meat<br>mushroom <br>bacon   <br>Spanish cheese </p>
-                </div>
-            </div>
-        </div>
-        <div class="imgblock">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" style="height: 280px; width: 288px;" src="images/menuItem6.jpg" alt="item8">
-                <div class="card-body">
-                <p class="card-text" ><b>Triple Burger :</b><br>meat 180g*3 <br>gouda cheese*3 <br>special sauce </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-</div>
+<h3>EX3 . In-class Task variable & operators</h3>
+<h2>1.Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using <h3> tag: Hello …., You are welcome to my site.</h2>
+
+<form action="action.php" method="post" style = "color:black ; display:block">
+       First-name: <input type="text" name="fname"> <br>
+       Last-name: <input type="text" name="lname"> <br>
+       Birth-Date: <input type="date" name="birth_date"> <br>
+       select your favorite color : <input type="color" name="color"> <br>
+       <input type="submit" value="Submit">
+</form>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
