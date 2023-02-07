@@ -67,4 +67,5 @@ echo $num1."+".$num2."+".$num3."=". $sum;
 <?php
 echo $_SERVER['HTTP_USER_AGENT'];
 ?>
+<h2>Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file. <br> (Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get the last modified time & date function to print the date and time)</h2>
 <?php include "footer.php" ?>
