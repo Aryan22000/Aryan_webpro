@@ -1,5 +1,4 @@
 <?php include "header.php" ?>
-
 <h3>EX3 . In-class Task variable & operators</h3>
 <h2>1.Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using <h3> tag: Hello …., You are welcome to my site.</h2>
 

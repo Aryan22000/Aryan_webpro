@@ -9,12 +9,11 @@
   </div>
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
-  <p>Last Modified: 
-    <?php 
-      echo date("F d, Y H:i:s", filemtime(basename($_SERVER['PHP_SELF']))); 
+  <p>Last Modify on
+    <?php
+    echo date("l,F jS, Y H:i a", filemtime(basename($_SERVER['PHP_SELF']))) . "<br>"; 
       ?>
       </p>
-
   </div>
 </footer>
 </div>
