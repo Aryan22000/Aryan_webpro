@@ -35,6 +35,9 @@
         <li class="nav-item">
           <a class="nav-link" href="controlflow.php">exercise 4</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="array.php">exercise 5</a>
+        </li>
         
       </ul>
       <form class="d-flex" role="search">
