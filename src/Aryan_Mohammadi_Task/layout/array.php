@@ -107,14 +107,20 @@ $Record = array(
        79,
        73
 );
+$sum = 0;
+foreach ($Record as $k) {
+       $sum += $k; 
+}
+$arrlength = count($Record);
 
-
+echo "average:" . ($sum / $arrlength)."<br>";
 sort($Record);
 echo "five lowest:"."<br>";
 for($x = 0; $x < 5; $x++) {
        echo $Record[$x];
        echo "<br>";
 }
+
 echo "five hightest:"."<br>";
 $arrlength = count($Record);
 for ($i = ($arrlength-5); $i < $arrlength; $i++) {
