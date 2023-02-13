@@ -54,7 +54,7 @@ $courses4=array("php", "html", "javascript", "cms", "project");
 <?php 
 $courses4=array("php", "html", "javascript", "cms", "project");
 foreach ($courses4 as $i) {
-       echo strtoupper($i)."       ";
+       echo strtoupper($i).",";
 }
 ?>
 <h3>
