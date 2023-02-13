@@ -51,6 +51,14 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      some thing here
+      <div class="list-group">
+  <a href="../Variables-chapter3/index.php" class="list-group-item list-group-item-action">Variable</a>
+  <a href="../array/index.php" class="list-group-item list-group-item-action list-group-item-primary">array</a>
+  <a href="../control-flow/index.php" class="list-group-item list-group-item-action list-group-item-secondary">control flow</a>
+  <a href="../function/index.php" class="list-group-item list-group-item-action list-group-item-success">function</a>
+  <a href="../crud1/create.php" class="list-group-item list-group-item-action list-group-item-danger">crud1</a>
+  <a href="../tommi-project/index.php" class="list-group-item list-group-item-action list-group-item-warning">Tommi project</a>
+  <a href="../layout/index.php" class="list-group-item list-group-item-action list-group-item-info">layout</a>
+      </div>
     </div>
     <div class="col-sm-9">
