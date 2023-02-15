@@ -17,7 +17,7 @@ if ($result->num_rows > 0){
        while ($row = $result -> fetch_assoc()){
               echo " 
               <tr>
-              <td>$row[id]</td>
+              <td style='color:Tomato;'><a href = 'updatesingle.php?id=$row[id]'>$row[id]</a></td>
               <td>$row[fname]</td>
               <td>$row[lname]</td>
               <td>$row[city]</td>
@@ -28,5 +28,7 @@ if ($result->num_rows > 0){
               }else{
                      echo "NO Results";
                      }
-                     $conn -> close();
+       $conn -> close();
+
+
 include '../layout/footer.php';?>

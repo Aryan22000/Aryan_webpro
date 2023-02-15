@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
 <style>
-  a, .nav-link,.navbar-brand {
+  .nav-link,.navbar-brand {
     color: white;
+}
+.table a{
+  color : black;
 }
     </style>
 </head>
@@ -56,7 +59,7 @@
   <a href="../array/index.php" class="list-group-item list-group-item-action list-group-item-primary">array</a>
   <a href="../control-flow/index.php" class="list-group-item list-group-item-action list-group-item-secondary">control flow</a>
   <a href="../function/index.php" class="list-group-item list-group-item-action list-group-item-success">function</a>
-  <a href="../crud1/create.php" class="list-group-item list-group-item-action list-group-item-danger">crud1</a>
+  <a href="../crud1/read.php" class="list-group-item list-group-item-action list-group-item-danger">crud1</a>
   <a href="../tommi-project/index.php" class="list-group-item list-group-item-action list-group-item-warning">Tommi project</a>
   <a href="../layout/index.php" class="list-group-item list-group-item-action list-group-item-info">layout</a>
       </div>
