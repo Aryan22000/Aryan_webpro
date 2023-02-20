@@ -15,6 +15,8 @@
   color : black;
 }
     </style>
+    <script src = "../layout/js/site.js"> 
+    </script>
 </head>
 <body>
   <div class="container" >

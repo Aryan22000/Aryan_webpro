@@ -23,13 +23,35 @@ echo "Hello world ! My name is \"Aryan\" ";
 <?php
 echo date("d.m.Y") . "<br>";
 ?>
-<div></div>
+<script>
+    document.write("Hello World this is js")
+    window.alert("Hello  ")
+    window.alert("my name is Aryan")
+</script>
+<!-- <noscript>
+    please enable your javascript code.
+</noscript> -->
+<input type="button" onclick="hello()" value="Click Me">
+<hr>
+<p id="place1" style="color : red; background-color : yellow;"></p>
+<span id="place2" style="color : red; background-color : green;"></span>
+
+    <script>
+        document.getElementById("place1").innerHTML = "this will go to place1";
+        document.getElementById("place2").innerHTML = "this will go to span";
+
+    </script>
+
+
 <h1>3.4 variable in PHP</h1>
 <?php
 $title1 = "PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
 ?>
 <h3> 3.5.table & variable </h3>
+<button oneclick = "add()" value = "click to add">
+    click to Add
+</button>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -53,7 +75,12 @@ echo "
 ?>
 <h3> 4 screenshot of the development environment </h3>
 <img src="./my_docker.png" alt="My screenshot of docker" style="width: 900px; height: 400px;">
+<h2>change the background color</h2>
+<form>
+    <input type = "color" name = "background" onchange = "changeColor('background',this.value)">
+</form>
+
+
 </body>
 </html>
-
 <?php include "footer.php" ?>
