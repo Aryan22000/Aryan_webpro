@@ -3,7 +3,7 @@ $title = "reading Data form database";
 include '../layout/header.php';
 include 'db.php';
 $sql = "select * from studentinfo";
-$result = $conn ->query($sql);
+$result = $con ->query($sql);
 if ($result->num_rows > 0){
        echo" 
        <table class='table'>
@@ -17,7 +17,7 @@ if ($result->num_rows > 0){
        while ($row = $result -> fetch_assoc()){
               echo " 
               <tr>
-              <td style='color:Tomato;'><a href = 'updatesingle.php?id=$row[id]'>$row[id]</a></td>
+              <td style='color:black;'><a href = 'updatesingle.php?id=$row[id]'>$row[id]</a></td>
               <td>$row[fname]</td>
               <td>$row[lname]</td>
               <td>$row[city]</td>
@@ -28,7 +28,7 @@ if ($result->num_rows > 0){
               }else{
                      echo "NO Results";
                      }
-       $conn -> close();
+       $con -> close();
 
 
 include '../layout/footer.php';?>
