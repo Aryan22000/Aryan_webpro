@@ -43,6 +43,9 @@
         <li class="nav-item">
           <a class="nav-link" href="array.php">exercise 5</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jsinclass.php">js</a>
+        </li>
         
       </ul>
       <form class="d-flex" role="search">
