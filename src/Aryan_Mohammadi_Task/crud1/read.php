@@ -25,7 +25,7 @@ if ($result->num_rows > 0){
               </tr> ";
               }echo
               "</table>";
-              }else{
+}else{
                      echo "NO Results";
                      }
        $con -> close();
